@@ -1,0 +1,462 @@
+{
+  "caseId": "meningioma-case-c25ed283e7f9",
+  "subjectId": "meningioma-case-c25ed283e7f9",
+  "sequence": "T2w",
+  "modality": "MRI",
+  "dataset": "meningioma",
+  "pathologyFlag": true,
+  "orientation": "sagittal",
+  "synthetic": false,
+  "nativeStacks": {
+    "sagittal": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-c25ed283e7f9/native_sagittal.nii.gz",
+      "shape": [
+        22,
+        241,
+        241
+      ],
+      "spacing": [
+        5.500004,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          5.366075,
+          0.216485,
+          0.035262,
+          -75.774124
+        ],
+        [
+          -1.198674,
+          0.974941,
+          0.044633,
+          -121.933708
+        ],
+        [
+          -0.135935,
+          -0.051231,
+          0.998381,
+          -60.467022
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "sagittal",
+      "sliceAxis": 0,
+      "sourceName": "sag_orig.nii.gz"
+    },
+    "coronal": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-c25ed283e7f9/native_coronal.nii.gz",
+      "shape": [
+        241,
+        28,
+        241
+      ],
+      "spacing": [
+        1.0,
+        5.500084,
+        1.0
+      ],
+      "affine": [
+        [
+          0.980076,
+          1.089807,
+          0.013783,
+          -124.850723
+        ],
+        [
+          -0.190199,
+          5.039474,
+          0.352566,
+          -116.136757
+        ],
+        [
+          0.05723,
+          -1.914927,
+          0.935685,
+          -32.020355
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "coronal",
+      "sliceAxis": 1,
+      "sourceName": "cor_orig.nii.gz"
+    }
+  },
+  "volumes": {
+    "native": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-c25ed283e7f9/native_sagittal.nii.gz",
+      "shape": [
+        22,
+        241,
+        241
+      ],
+      "spacing": [
+        5.500004,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          5.366075,
+          0.216485,
+          0.035262,
+          -75.774124
+        ],
+        [
+          -1.198674,
+          0.974941,
+          0.044633,
+          -121.933708
+        ],
+        [
+          -0.135935,
+          -0.051231,
+          0.998381,
+          -60.467022
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "sagittal",
+      "sliceAxis": 0,
+      "sourceName": "sag_orig.nii.gz"
+    },
+    "predictionA": {
+      "role": "prediction",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-c25ed283e7f9/prediction_a.nii.gz",
+      "shape": [
+        269,
+        286,
+        292
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -124.899719
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -162.235886
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -83.723373
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slotLabel": "A"
+    },
+    "predictionB": {
+      "role": "prediction",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-c25ed283e7f9/prediction_b.nii.gz",
+      "shape": [
+        269,
+        286,
+        292
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -124.899719
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -162.235886
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -83.723373
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slotLabel": "B"
+    }
+  },
+  "sliceMapping": {
+    "displayedOrientation": "sagittal",
+    "nativeAxis": 0,
+    "predictionAxis": 2,
+    "method": "physical_affine_plane_resample",
+    "fallbackReason": null,
+    "nativeSlices": 22,
+    "predictionASlices": 292,
+    "predictionBSlices": 292,
+    "entries": [
+      {
+        "nativeIndex": 0,
+        "predictionAIndex": 137,
+        "predictionBIndex": 137,
+        "nativeWorldCenter": [
+          -45.564596,
+          0.415206,
+          53.190927
+        ]
+      },
+      {
+        "nativeIndex": 1,
+        "predictionAIndex": 137,
+        "predictionBIndex": 137,
+        "nativeWorldCenter": [
+          -40.198522,
+          -0.783468,
+          53.054992
+        ]
+      },
+      {
+        "nativeIndex": 2,
+        "predictionAIndex": 137,
+        "predictionBIndex": 137,
+        "nativeWorldCenter": [
+          -34.832447,
+          -1.982141,
+          52.919056
+        ]
+      },
+      {
+        "nativeIndex": 3,
+        "predictionAIndex": 137,
+        "predictionBIndex": 137,
+        "nativeWorldCenter": [
+          -29.466373,
+          -3.180815,
+          52.783121
+        ]
+      },
+      {
+        "nativeIndex": 4,
+        "predictionAIndex": 136,
+        "predictionBIndex": 136,
+        "nativeWorldCenter": [
+          -24.100298,
+          -4.379489,
+          52.647186
+        ]
+      },
+      {
+        "nativeIndex": 5,
+        "predictionAIndex": 136,
+        "predictionBIndex": 136,
+        "nativeWorldCenter": [
+          -18.734223,
+          -5.578163,
+          52.51125
+        ]
+      },
+      {
+        "nativeIndex": 6,
+        "predictionAIndex": 136,
+        "predictionBIndex": 136,
+        "nativeWorldCenter": [
+          -13.368149,
+          -6.776836,
+          52.375315
+        ]
+      },
+      {
+        "nativeIndex": 7,
+        "predictionAIndex": 136,
+        "predictionBIndex": 136,
+        "nativeWorldCenter": [
+          -8.002074,
+          -7.97551,
+          52.239379
+        ]
+      },
+      {
+        "nativeIndex": 8,
+        "predictionAIndex": 136,
+        "predictionBIndex": 136,
+        "nativeWorldCenter": [
+          -2.636,
+          -9.174184,
+          52.103444
+        ]
+      },
+      {
+        "nativeIndex": 9,
+        "predictionAIndex": 136,
+        "predictionBIndex": 136,
+        "nativeWorldCenter": [
+          2.730075,
+          -10.372858,
+          51.967509
+        ]
+      },
+      {
+        "nativeIndex": 10,
+        "predictionAIndex": 136,
+        "predictionBIndex": 136,
+        "nativeWorldCenter": [
+          8.096149,
+          -11.571531,
+          51.831573
+        ]
+      },
+      {
+        "nativeIndex": 11,
+        "predictionAIndex": 135,
+        "predictionBIndex": 135,
+        "nativeWorldCenter": [
+          13.462224,
+          -12.770205,
+          51.695638
+        ]
+      },
+      {
+        "nativeIndex": 12,
+        "predictionAIndex": 135,
+        "predictionBIndex": 135,
+        "nativeWorldCenter": [
+          18.828299,
+          -13.968879,
+          51.559702
+        ]
+      },
+      {
+        "nativeIndex": 13,
+        "predictionAIndex": 135,
+        "predictionBIndex": 135,
+        "nativeWorldCenter": [
+          24.194373,
+          -15.167552,
+          51.423767
+        ]
+      },
+      {
+        "nativeIndex": 14,
+        "predictionAIndex": 135,
+        "predictionBIndex": 135,
+        "nativeWorldCenter": [
+          29.560448,
+          -16.366226,
+          51.287832
+        ]
+      },
+      {
+        "nativeIndex": 15,
+        "predictionAIndex": 135,
+        "predictionBIndex": 135,
+        "nativeWorldCenter": [
+          34.926522,
+          -17.5649,
+          51.151896
+        ]
+      },
+      {
+        "nativeIndex": 16,
+        "predictionAIndex": 135,
+        "predictionBIndex": 135,
+        "nativeWorldCenter": [
+          40.292597,
+          -18.763574,
+          51.015961
+        ]
+      },
+      {
+        "nativeIndex": 17,
+        "predictionAIndex": 135,
+        "predictionBIndex": 135,
+        "nativeWorldCenter": [
+          45.658671,
+          -19.962247,
+          50.880026
+        ]
+      },
+      {
+        "nativeIndex": 18,
+        "predictionAIndex": 134,
+        "predictionBIndex": 134,
+        "nativeWorldCenter": [
+          51.024746,
+          -21.160921,
+          50.74409
+        ]
+      },
+      {
+        "nativeIndex": 19,
+        "predictionAIndex": 134,
+        "predictionBIndex": 134,
+        "nativeWorldCenter": [
+          56.39082,
+          -22.359595,
+          50.608155
+        ]
+      },
+      {
+        "nativeIndex": 20,
+        "predictionAIndex": 134,
+        "predictionBIndex": 134,
+        "nativeWorldCenter": [
+          61.756895,
+          -23.558269,
+          50.472219
+        ]
+      },
+      {
+        "nativeIndex": 21,
+        "predictionAIndex": 134,
+        "predictionBIndex": 134,
+        "nativeWorldCenter": [
+          67.12297,
+          -24.756942,
+          50.336284
+        ]
+      }
+    ]
+  },
+  "thickSlab": {
+    "available": false,
+    "mode": "future_ready",
+    "description": "Prediction-only orientations display each prediction in its own isotropic grid."
+  }
+}
