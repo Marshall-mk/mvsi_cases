@@ -1,0 +1,186 @@
+{
+  "studyId": "tmi-sr-review",
+  "reviewerId": "dr.smith",
+  "cases": [
+    {
+      "caseId": "ebner-case-39aaee5bf6bb",
+      "subjectId": "ebner-case-39aaee5bf6bb",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-39aaee5bf6bb/metadata.json"
+    },
+    {
+      "caseId": "ebner-case-809d1c712633",
+      "subjectId": "ebner-case-809d1c712633",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-809d1c712633/metadata.json"
+    },
+    {
+      "caseId": "ebner-case-9593db5482ac",
+      "subjectId": "ebner-case-9593db5482ac",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-9593db5482ac/metadata.json"
+    },
+    {
+      "caseId": "ebner-case-ad857b2dc2a4",
+      "subjectId": "ebner-case-ad857b2dc2a4",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-ad857b2dc2a4/metadata.json"
+    },
+    {
+      "caseId": "ebner-case-b0ac551c3297",
+      "subjectId": "ebner-case-b0ac551c3297",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-b0ac551c3297/metadata.json"
+    },
+    {
+      "caseId": "ebner-case-e1a43e8684be",
+      "subjectId": "ebner-case-e1a43e8684be",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-e1a43e8684be/metadata.json"
+    },
+    {
+      "caseId": "ebner-case-ec3a46fb536f",
+      "subjectId": "ebner-case-ec3a46fb536f",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-ec3a46fb536f/metadata.json"
+    },
+    {
+      "caseId": "meningioma-case-42935ab52efd",
+      "subjectId": "meningioma-case-42935ab52efd",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-42935ab52efd/metadata.json"
+    },
+    {
+      "caseId": "meningioma-case-68366462f24c",
+      "subjectId": "meningioma-case-68366462f24c",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-68366462f24c/metadata.json"
+    },
+    {
+      "caseId": "meningioma-case-6e82e55aeec4",
+      "subjectId": "meningioma-case-6e82e55aeec4",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-6e82e55aeec4/metadata.json"
+    },
+    {
+      "caseId": "meningioma-case-8e1fb519f46d",
+      "subjectId": "meningioma-case-8e1fb519f46d",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-8e1fb519f46d/metadata.json"
+    },
+    {
+      "caseId": "meningioma-case-c25ed283e7f9",
+      "subjectId": "meningioma-case-c25ed283e7f9",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-c25ed283e7f9/metadata.json"
+    },
+    {
+      "caseId": "meningioma-case-c274eea04d93",
+      "subjectId": "meningioma-case-c274eea04d93",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-c274eea04d93/metadata.json"
+    },
+    {
+      "caseId": "meningioma-case-fb7ce6591195",
+      "subjectId": "meningioma-case-fb7ce6591195",
+      "sequence": "T2w",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/meningioma-case-fb7ce6591195/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-160b39fd1794",
+      "subjectId": "nigerian-case-160b39fd1794",
+      "sequence": "T1_CE_0.3T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-160b39fd1794/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-1c020d6376da",
+      "subjectId": "nigerian-case-1c020d6376da",
+      "sequence": "T1_CE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-1c020d6376da/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-1d72ca424ca4",
+      "subjectId": "nigerian-case-1d72ca424ca4",
+      "sequence": "T1_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-1d72ca424ca4/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-2b9fd5aa863a",
+      "subjectId": "nigerian-case-2b9fd5aa863a",
+      "sequence": "T2_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-2b9fd5aa863a/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-3826d70df1fc",
+      "subjectId": "nigerian-case-3826d70df1fc",
+      "sequence": "T2_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-3826d70df1fc/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-50be4587ca25",
+      "subjectId": "nigerian-case-50be4587ca25",
+      "sequence": "T1_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-50be4587ca25/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-5b463b2ad374",
+      "subjectId": "nigerian-case-5b463b2ad374",
+      "sequence": "T1_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-5b463b2ad374/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-7f346b8cb543",
+      "subjectId": "nigerian-case-7f346b8cb543",
+      "sequence": "T2_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-7f346b8cb543/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-9460679a602a",
+      "subjectId": "nigerian-case-9460679a602a",
+      "sequence": "T1_CE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-9460679a602a/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-ab0026f0d1c6",
+      "subjectId": "nigerian-case-ab0026f0d1c6",
+      "sequence": "T1_CE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-ab0026f0d1c6/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-ad10194fddad",
+      "subjectId": "nigerian-case-ad10194fddad",
+      "sequence": "T1_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-ad10194fddad/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-c979ba49dfad",
+      "subjectId": "nigerian-case-c979ba49dfad",
+      "sequence": "T1_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-c979ba49dfad/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-d89c13d7f717",
+      "subjectId": "nigerian-case-d89c13d7f717",
+      "sequence": "T2_noCE_0.3T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-d89c13d7f717/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-ebe8f8a65c2e",
+      "subjectId": "nigerian-case-ebe8f8a65c2e",
+      "sequence": "T1_noCE_0.3T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-ebe8f8a65c2e/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-f34113ef420e",
+      "subjectId": "nigerian-case-f34113ef420e",
+      "sequence": "T2_noCE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-f34113ef420e/metadata.json"
+    },
+    {
+      "caseId": "nigerian-case-f4c8d6cf2438",
+      "subjectId": "nigerian-case-f4c8d6cf2438",
+      "sequence": "T1_CE_1.5T",
+      "metadataUrl": "https://raw.githubusercontent.com/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-f4c8d6cf2438/metadata.json"
+    }
+  ]
+}

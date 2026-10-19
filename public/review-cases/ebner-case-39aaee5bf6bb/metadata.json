@@ -1,0 +1,535 @@
+{
+  "caseId": "ebner-case-39aaee5bf6bb",
+  "subjectId": "ebner-case-39aaee5bf6bb",
+  "sequence": "T2w",
+  "modality": "MRI",
+  "dataset": "ebner",
+  "pathologyFlag": true,
+  "orientation": "axial",
+  "synthetic": false,
+  "nativeStacks": {
+    "axial": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-39aaee5bf6bb/native_axial.nii.gz",
+      "shape": [
+        350,
+        350,
+        25
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        5.0
+      ],
+      "affine": [
+        [
+          0.999225,
+          0.007595,
+          0.193046,
+          -168.900192
+        ],
+        [
+          -0.007335,
+          0.999949,
+          -0.034372,
+          -144.155502
+        ],
+        [
+          -0.03866,
+          0.006586,
+          4.996154,
+          -5.47246
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "axial",
+      "sliceAxis": 2,
+      "sourceName": "axial_orig.nii.gz"
+    },
+    "sagittal": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-39aaee5bf6bb/native_sagittal.nii.gz",
+      "shape": [
+        20,
+        350,
+        350
+      ],
+      "spacing": [
+        5.0,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          4.992924,
+          -0.003747,
+          0.05305,
+          -46.047905
+        ],
+        [
+          0.018624,
+          0.999993,
+          0.000509,
+          -145.474533
+        ],
+        [
+          -0.265257,
+          -0.000311,
+          0.998592,
+          -121.309616
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "sagittal",
+      "sliceAxis": 0,
+      "sourceName": "sagittal_orig.nii.gz"
+    },
+    "coronal": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-39aaee5bf6bb/native_coronal.nii.gz",
+      "shape": [
+        350,
+        20,
+        350
+      ],
+      "spacing": [
+        1.0,
+        5.000003,
+        1.0
+      ],
+      "affine": [
+        [
+          0.998837,
+          0.072411,
+          0.045979,
+          -173.717163
+        ],
+        [
+          -0.014317,
+          4.999453,
+          -0.003922,
+          -15.16396
+        ],
+        [
+          -0.046031,
+          0.016297,
+          0.998935,
+          -123.767326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "coronal",
+      "sliceAxis": 1,
+      "sourceName": "coronal_orig.nii.gz"
+    }
+  },
+  "volumes": {
+    "native": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-39aaee5bf6bb/native_axial.nii.gz",
+      "shape": [
+        350,
+        350,
+        25
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        5.0
+      ],
+      "affine": [
+        [
+          0.999225,
+          0.007595,
+          0.193046,
+          -168.900192
+        ],
+        [
+          -0.007335,
+          0.999949,
+          -0.034372,
+          -144.155502
+        ],
+        [
+          -0.03866,
+          0.006586,
+          4.996154,
+          -5.47246
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "axial",
+      "sliceAxis": 2,
+      "sourceName": "axial_orig.nii.gz"
+    },
+    "predictionA": {
+      "role": "prediction",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-39aaee5bf6bb/prediction_a.nii.gz",
+      "shape": [
+        181,
+        250,
+        250
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          0.998916,
+          -0.004663,
+          0.046317,
+          -86.297516
+        ],
+        [
+          0.004673,
+          0.999989,
+          -0.000102,
+          -95.828682
+        ],
+        [
+          -0.046316,
+          0.000318,
+          0.998927,
+          -68.910965
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slotLabel": "A"
+    },
+    "predictionB": {
+      "role": "prediction",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/ebner-case-39aaee5bf6bb/prediction_b.nii.gz",
+      "shape": [
+        181,
+        250,
+        250
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          0.998916,
+          -0.004663,
+          0.046317,
+          -86.297516
+        ],
+        [
+          0.004673,
+          0.999989,
+          -0.000102,
+          -95.828682
+        ],
+        [
+          -0.046316,
+          0.000318,
+          0.998927,
+          -68.910965
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slotLabel": "B"
+    }
+  },
+  "sliceMapping": {
+    "displayedOrientation": "axial",
+    "nativeAxis": 2,
+    "predictionAxis": 2,
+    "method": "physical_affine_plane_resample",
+    "fallbackReason": null,
+    "nativeSlices": 25,
+    "predictionASlices": 250,
+    "predictionBSlices": 250,
+    "entries": [
+      {
+        "nativeIndex": 0,
+        "predictionAIndex": 62,
+        "predictionBIndex": 62,
+        "nativeWorldCenter": [
+          6.789981,
+          29.055744,
+          -11.06931
+        ]
+      },
+      {
+        "nativeIndex": 1,
+        "predictionAIndex": 67,
+        "predictionBIndex": 67,
+        "nativeWorldCenter": [
+          6.983028,
+          29.021372,
+          -6.073156
+        ]
+      },
+      {
+        "nativeIndex": 2,
+        "predictionAIndex": 72,
+        "predictionBIndex": 72,
+        "nativeWorldCenter": [
+          7.176074,
+          28.987,
+          -1.077003
+        ]
+      },
+      {
+        "nativeIndex": 3,
+        "predictionAIndex": 77,
+        "predictionBIndex": 77,
+        "nativeWorldCenter": [
+          7.36912,
+          28.952628,
+          3.919151
+        ]
+      },
+      {
+        "nativeIndex": 4,
+        "predictionAIndex": 82,
+        "predictionBIndex": 82,
+        "nativeWorldCenter": [
+          7.562166,
+          28.918256,
+          8.915305
+        ]
+      },
+      {
+        "nativeIndex": 5,
+        "predictionAIndex": 87,
+        "predictionBIndex": 87,
+        "nativeWorldCenter": [
+          7.755213,
+          28.883884,
+          13.911459
+        ]
+      },
+      {
+        "nativeIndex": 6,
+        "predictionAIndex": 92,
+        "predictionBIndex": 92,
+        "nativeWorldCenter": [
+          7.948259,
+          28.849512,
+          18.907613
+        ]
+      },
+      {
+        "nativeIndex": 7,
+        "predictionAIndex": 97,
+        "predictionBIndex": 97,
+        "nativeWorldCenter": [
+          8.141305,
+          28.81514,
+          23.903767
+        ]
+      },
+      {
+        "nativeIndex": 8,
+        "predictionAIndex": 102,
+        "predictionBIndex": 102,
+        "nativeWorldCenter": [
+          8.334351,
+          28.780768,
+          28.89992
+        ]
+      },
+      {
+        "nativeIndex": 9,
+        "predictionAIndex": 107,
+        "predictionBIndex": 107,
+        "nativeWorldCenter": [
+          8.527398,
+          28.746396,
+          33.896074
+        ]
+      },
+      {
+        "nativeIndex": 10,
+        "predictionAIndex": 112,
+        "predictionBIndex": 112,
+        "nativeWorldCenter": [
+          8.720444,
+          28.712024,
+          38.892228
+        ]
+      },
+      {
+        "nativeIndex": 11,
+        "predictionAIndex": 117,
+        "predictionBIndex": 117,
+        "nativeWorldCenter": [
+          8.91349,
+          28.677652,
+          43.888382
+        ]
+      },
+      {
+        "nativeIndex": 12,
+        "predictionAIndex": 122,
+        "predictionBIndex": 122,
+        "nativeWorldCenter": [
+          9.106536,
+          28.64328,
+          48.884536
+        ]
+      },
+      {
+        "nativeIndex": 13,
+        "predictionAIndex": 127,
+        "predictionBIndex": 127,
+        "nativeWorldCenter": [
+          9.299583,
+          28.608909,
+          53.88069
+        ]
+      },
+      {
+        "nativeIndex": 14,
+        "predictionAIndex": 132,
+        "predictionBIndex": 132,
+        "nativeWorldCenter": [
+          9.492629,
+          28.574537,
+          58.876843
+        ]
+      },
+      {
+        "nativeIndex": 15,
+        "predictionAIndex": 137,
+        "predictionBIndex": 137,
+        "nativeWorldCenter": [
+          9.685675,
+          28.540165,
+          63.872997
+        ]
+      },
+      {
+        "nativeIndex": 16,
+        "predictionAIndex": 142,
+        "predictionBIndex": 142,
+        "nativeWorldCenter": [
+          9.878722,
+          28.505793,
+          68.869151
+        ]
+      },
+      {
+        "nativeIndex": 17,
+        "predictionAIndex": 147,
+        "predictionBIndex": 147,
+        "nativeWorldCenter": [
+          10.071768,
+          28.471421,
+          73.865305
+        ]
+      },
+      {
+        "nativeIndex": 18,
+        "predictionAIndex": 152,
+        "predictionBIndex": 152,
+        "nativeWorldCenter": [
+          10.264814,
+          28.437049,
+          78.861459
+        ]
+      },
+      {
+        "nativeIndex": 19,
+        "predictionAIndex": 157,
+        "predictionBIndex": 157,
+        "nativeWorldCenter": [
+          10.45786,
+          28.402677,
+          83.857613
+        ]
+      },
+      {
+        "nativeIndex": 20,
+        "predictionAIndex": 162,
+        "predictionBIndex": 162,
+        "nativeWorldCenter": [
+          10.650907,
+          28.368305,
+          88.853766
+        ]
+      },
+      {
+        "nativeIndex": 21,
+        "predictionAIndex": 167,
+        "predictionBIndex": 167,
+        "nativeWorldCenter": [
+          10.843953,
+          28.333933,
+          93.84992
+        ]
+      },
+      {
+        "nativeIndex": 22,
+        "predictionAIndex": 172,
+        "predictionBIndex": 172,
+        "nativeWorldCenter": [
+          11.036999,
+          28.299561,
+          98.846074
+        ]
+      },
+      {
+        "nativeIndex": 23,
+        "predictionAIndex": 177,
+        "predictionBIndex": 177,
+        "nativeWorldCenter": [
+          11.230045,
+          28.265189,
+          103.842228
+        ]
+      },
+      {
+        "nativeIndex": 24,
+        "predictionAIndex": 182,
+        "predictionBIndex": 182,
+        "nativeWorldCenter": [
+          11.423092,
+          28.230817,
+          108.838382
+        ]
+      }
+    ]
+  },
+  "thickSlab": {
+    "available": false,
+    "mode": "future_ready",
+    "description": "Prediction-only orientations display each prediction in its own isotropic grid."
+  }
+}

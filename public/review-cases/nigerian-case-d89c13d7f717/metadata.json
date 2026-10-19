@@ -1,0 +1,422 @@
+{
+  "caseId": "nigerian-case-d89c13d7f717",
+  "subjectId": "nigerian-case-d89c13d7f717",
+  "sequence": "T2_noCE_0.3T",
+  "modality": "MRI",
+  "dataset": "nigerian",
+  "pathologyFlag": true,
+  "orientation": "axial",
+  "synthetic": false,
+  "nativeStacks": {
+    "axial": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-d89c13d7f717/native_axial.nii.gz",
+      "shape": [
+        241,
+        241,
+        18
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        7.0
+      ],
+      "affine": [
+        [
+          0.999991,
+          -0.004185,
+          -0.006313,
+          -116.477768
+        ],
+        [
+          0.004235,
+          0.99783,
+          0.459913,
+          -109.885712
+        ],
+        [
+          0.000625,
+          -0.065705,
+          6.984872,
+          -0.633403
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "axial",
+      "sliceAxis": 2,
+      "sourceName": "axial_T2_noCE_0.3T_orig.nii.gz"
+    },
+    "sagittal": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-d89c13d7f717/native_sagittal.nii.gz",
+      "shape": [
+        18,
+        241,
+        241
+      ],
+      "spacing": [
+        7.5,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          7.441162,
+          -0.120432,
+          0.033543,
+          -53.106575
+        ],
+        [
+          0.89539,
+          0.992344,
+          0.031627,
+          -111.77224
+        ],
+        [
+          -0.278209,
+          -0.027374,
+          0.998937,
+          -91.359383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "sagittal",
+      "sliceAxis": 0,
+      "sourceName": "sagittal_T2_noCE_0.3T_orig.nii.gz"
+    }
+  },
+  "volumes": {
+    "native": {
+      "role": "native_lr_input",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-d89c13d7f717/native_axial.nii.gz",
+      "shape": [
+        241,
+        241,
+        18
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        7.0
+      ],
+      "affine": [
+        [
+          0.999991,
+          -0.004185,
+          -0.006313,
+          -116.477768
+        ],
+        [
+          0.004235,
+          0.99783,
+          0.459913,
+          -109.885712
+        ],
+        [
+          0.000625,
+          -0.065705,
+          6.984872,
+          -0.633403
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation": "axial",
+      "sliceAxis": 2,
+      "sourceName": "axial_T2_noCE_0.3T_orig.nii.gz"
+    },
+    "predictionA": {
+      "role": "prediction",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-d89c13d7f717/prediction_a.nii.gz",
+      "shape": [
+        248,
+        262,
+        278
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -118.365417
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -111.797607
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -121.742317
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slotLabel": "A"
+    },
+    "predictionB": {
+      "role": "prediction",
+      "sourcePath": "https://media.githubusercontent.com/media/Marshall-mk/mvsi_cases/main/public/review-cases/nigerian-case-d89c13d7f717/prediction_b.nii.gz",
+      "shape": [
+        248,
+        262,
+        278
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "affine": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -118.365417
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -111.797607
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -121.742317
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "slotLabel": "B"
+    }
+  },
+  "sliceMapping": {
+    "displayedOrientation": "axial",
+    "nativeAxis": 2,
+    "predictionAxis": 2,
+    "method": "physical_affine_plane_resample",
+    "fallbackReason": null,
+    "nativeSlices": 18,
+    "predictionASlices": 278,
+    "predictionBSlices": 278,
+    "entries": [
+      {
+        "nativeIndex": 0,
+        "predictionAIndex": 113,
+        "predictionBIndex": 113,
+        "nativeWorldCenter": [
+          3.018952,
+          10.362125,
+          -8.443011
+        ]
+      },
+      {
+        "nativeIndex": 1,
+        "predictionAIndex": 120,
+        "predictionBIndex": 120,
+        "nativeWorldCenter": [
+          3.012639,
+          10.822038,
+          -1.458139
+        ]
+      },
+      {
+        "nativeIndex": 2,
+        "predictionAIndex": 127,
+        "predictionBIndex": 127,
+        "nativeWorldCenter": [
+          3.006326,
+          11.281951,
+          5.526733
+        ]
+      },
+      {
+        "nativeIndex": 3,
+        "predictionAIndex": 134,
+        "predictionBIndex": 134,
+        "nativeWorldCenter": [
+          3.000012,
+          11.741864,
+          12.511605
+        ]
+      },
+      {
+        "nativeIndex": 4,
+        "predictionAIndex": 141,
+        "predictionBIndex": 141,
+        "nativeWorldCenter": [
+          2.993699,
+          12.201776,
+          19.496477
+        ]
+      },
+      {
+        "nativeIndex": 5,
+        "predictionAIndex": 148,
+        "predictionBIndex": 148,
+        "nativeWorldCenter": [
+          2.987386,
+          12.661689,
+          26.481348
+        ]
+      },
+      {
+        "nativeIndex": 6,
+        "predictionAIndex": 155,
+        "predictionBIndex": 155,
+        "nativeWorldCenter": [
+          2.981073,
+          13.121602,
+          33.46622
+        ]
+      },
+      {
+        "nativeIndex": 7,
+        "predictionAIndex": 162,
+        "predictionBIndex": 162,
+        "nativeWorldCenter": [
+          2.97476,
+          13.581515,
+          40.451092
+        ]
+      },
+      {
+        "nativeIndex": 8,
+        "predictionAIndex": 169,
+        "predictionBIndex": 169,
+        "nativeWorldCenter": [
+          2.968446,
+          14.041427,
+          47.435964
+        ]
+      },
+      {
+        "nativeIndex": 9,
+        "predictionAIndex": 176,
+        "predictionBIndex": 176,
+        "nativeWorldCenter": [
+          2.962133,
+          14.50134,
+          54.420836
+        ]
+      },
+      {
+        "nativeIndex": 10,
+        "predictionAIndex": 183,
+        "predictionBIndex": 183,
+        "nativeWorldCenter": [
+          2.95582,
+          14.961253,
+          61.405708
+        ]
+      },
+      {
+        "nativeIndex": 11,
+        "predictionAIndex": 190,
+        "predictionBIndex": 190,
+        "nativeWorldCenter": [
+          2.949507,
+          15.421166,
+          68.39058
+        ]
+      },
+      {
+        "nativeIndex": 12,
+        "predictionAIndex": 197,
+        "predictionBIndex": 197,
+        "nativeWorldCenter": [
+          2.943193,
+          15.881078,
+          75.375451
+        ]
+      },
+      {
+        "nativeIndex": 13,
+        "predictionAIndex": 204,
+        "predictionBIndex": 204,
+        "nativeWorldCenter": [
+          2.93688,
+          16.340991,
+          82.360323
+        ]
+      },
+      {
+        "nativeIndex": 14,
+        "predictionAIndex": 211,
+        "predictionBIndex": 211,
+        "nativeWorldCenter": [
+          2.930567,
+          16.800904,
+          89.345195
+        ]
+      },
+      {
+        "nativeIndex": 15,
+        "predictionAIndex": 218,
+        "predictionBIndex": 218,
+        "nativeWorldCenter": [
+          2.924254,
+          17.260817,
+          96.330067
+        ]
+      },
+      {
+        "nativeIndex": 16,
+        "predictionAIndex": 225,
+        "predictionBIndex": 225,
+        "nativeWorldCenter": [
+          2.917941,
+          17.72073,
+          103.314939
+        ]
+      },
+      {
+        "nativeIndex": 17,
+        "predictionAIndex": 232,
+        "predictionBIndex": 232,
+        "nativeWorldCenter": [
+          2.911627,
+          18.180642,
+          110.299811
+        ]
+      }
+    ]
+  },
+  "thickSlab": {
+    "available": false,
+    "mode": "future_ready",
+    "description": "Prediction-only orientations display each prediction in its own isotropic grid."
+  }
+}
